@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEdKv/hxAF3HfZkYjFM0iAC78cyl0yG6t5ytk+iG0Zz0MiTORR2z4YwfU0ufWtS2h5VlWMY1+goaSRR03Ievdw==",
+  "success": true,
+  "projectFilePath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj",
+  "expectedPackageFiles": [
+    "/home/poty/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/poty/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

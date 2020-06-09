@@ -1,0 +1,9 @@
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/bin/Debug/netstandard2.0/Northwind.Models.deps.json
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/bin/Debug/netstandard2.0/Northwind.Models.dll
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/bin/Debug/netstandard2.0/Northwind.Models.pdb
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.csprojAssemblyReference.cache
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.AssemblyInfoInputs.cache
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.AssemblyInfo.cs
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.csproj.CoreCompileInputs.cache
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.dll
+/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/Debug/netstandard2.0/Northwind.Models.pdb

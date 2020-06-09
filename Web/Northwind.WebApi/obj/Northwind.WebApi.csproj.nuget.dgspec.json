@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/poty/Documents/Proyects/NorthwindSolution/Web/Northwind.WebApi/Northwind.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/Northwind.DataAcces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/Northwind.DataAcces.csproj",
+        "projectName": "Northwind.DataAcces",
+        "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/Northwind.DataAcces.csproj",
+        "packagesPath": "/home/poty/.nuget/packages/",
+        "outputPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/poty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj"
+              },
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj"
+              },
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Dapper.contrib": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj",
+        "projectName": "Northwind.Models",
+        "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj",
+        "packagesPath": "/home/poty/.nuget/packages/",
+        "outputPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/poty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj",
+        "projectName": "Northwind.Repositories",
+        "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj",
+        "packagesPath": "/home/poty/.nuget/packages/",
+        "outputPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/poty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Models/Northwind.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj",
+        "projectName": "Northwind.UnitOfWork",
+        "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj",
+        "packagesPath": "/home/poty/.nuget/packages/",
+        "outputPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/poty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.Repositories/Northwind.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/poty/Documents/Proyects/NorthwindSolution/Web/Northwind.WebApi/Northwind.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/poty/Documents/Proyects/NorthwindSolution/Web/Northwind.WebApi/Northwind.WebApi.csproj",
+        "projectName": "Northwind.WebApi",
+        "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Web/Northwind.WebApi/Northwind.WebApi.csproj",
+        "packagesPath": "/home/poty/.nuget/packages/",
+        "outputPath": "/home/poty/Documents/Proyects/NorthwindSolution/Web/Northwind.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/poty/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/Northwind.DataAcces.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.DataAcces/Northwind.DataAcces.csproj"
+              },
+              "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj": {
+                "projectPath": "/home/poty/Documents/Proyects/NorthwindSolution/Data/Northwind.UnitOfWork/Northwind.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
