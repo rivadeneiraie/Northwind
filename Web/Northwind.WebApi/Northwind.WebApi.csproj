@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\Northwind.UnitOfWork\Northwind.UnitOfWork.csproj" />
     <ProjectReference Include="..\..\Data\Northwind.DataAcces\Northwind.DataAcces.csproj" />
+    <ProjectReference Include="..\..\Data\Northwind.Models\Northwind.Models.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
