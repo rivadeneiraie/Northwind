@@ -1,0 +1,14 @@
+Data/Northwind.DataAcces/bin/*
+Data/Northwind.DataAcces/obj/*
+
+Data/Northwind.Models/bin/*
+Data/Northwind.Models/obj/*
+
+Data/Northwind.Repositories/bin/*
+Data/Northwind.Repositories/obj/*
+
+Data/Northwind.UnitOfWork/bin/*
+Data/Northwind.UnitOfWork/obj/*
+
+Web/Northwind.WebApi/bin/*
+Web/Northwind.WebApi/obj/*

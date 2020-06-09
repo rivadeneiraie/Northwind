@@ -2,7 +2,7 @@
 
 namespace Northwind.UnitOfWork
 {
-    public class IUnitOfWork
+    public interface IUnitOfWork
     {
         ICustomerRepository Customer { get; }
     }
