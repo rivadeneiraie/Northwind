@@ -10,8 +10,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Northwind.UnitOfWork;
 using Northwind.DataAcces;
+using Northwind.WebApi.Authentication;
+
 
 namespace Northwind.WebApi
 {
@@ -32,6 +36,29 @@ namespace Northwind.WebApi
                         Configuration.GetConnectionString("Northwind")
                     )
             );
+
+            var tokenProvider = new JwtProvider("issuer", "audiencie", "Northwind_2000");
+
+
+            services.AddSingleton<ITokenAuthentication>(tokenProvider);
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options => 
+                    {
+                        options.RequireHttpsMetadata = false;
+                        options.TokenValidationParameters = tokenProvider.GetValidationParameters();
+                    }
+                );
+ 
+            services.AddAuthorization(auth => 
+                {
+                    auth.DefaultPolicy= new AuthorizationPolicyBuilder()
+                        .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                        .RequireAuthenticatedUser()
+                        .Build();
+                }
+            );
+
             services.AddControllers();
             
         }
@@ -48,6 +75,8 @@ namespace Northwind.WebApi
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
