@@ -1,6 +1,6 @@
 namespace Northwind.Models
 {
-    public class Supllier
+    public class Supplier
     {
         public int      Id              { get; set; }
         public string   CompanyName     { get; set; }
